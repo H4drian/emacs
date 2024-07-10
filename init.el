@@ -220,14 +220,3 @@
 (after! neotree
   (setq neo-smart-open t) ; open the neotree automatically when opening a file
   (setq projectile-switch-project-action 'neotree-projectile-action)) ; make NeoTree follow the current project root
-
-;; GNU assembly mode configuration
-(use-package gas-mode
-  :ensure t
-  :mode "\\.s\\'"
-  :init
-  (add-hook 'gas-mode-hook
-            (lambda ()
-              (setq-local tab-width 4) ; Adjust tab width as needed
-              ;; Any additional configurations can go here
-              )))
