@@ -72,3 +72,5 @@
 ;; Alternatively, use `C-h o' to look up a symbol (functions, variables, faces,
 ;; etc).
 ;; they are implemented.
+
+(map! "M-t" #'term)
