@@ -66,3 +66,4 @@
 (package! dna-mode)
 (package! display-wttr)
 (package! gas-mode)
+(package! catppuccin-theme)
