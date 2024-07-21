@@ -73,5 +73,6 @@
 ;; etc).
 ;; they are implemented.
 
-(map! "M-S-t" #'vterm)
-(map! "M-n" #'neotree-dir)
+;; C-S- is the default keybind for personal shortcuts
+(map! "C-S-v" #'vterm)
+(map! "C-S-n" #'neotree-dir)
