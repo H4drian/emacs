@@ -76,4 +76,3 @@
 ;; C-S- is the default keybind for personal shortcuts
 (map! "C-S-v" #'vterm)
 (map! "C-S-n" #'neotree-dir)
-(map! "C-S-m" #'magit)
