@@ -73,6 +73,8 @@
 ;; etc).
 ;; they are implemented.
 
-;; C-S- is the default keybind for personal shortcuts
-(map! "C-S-v" #'vterm)
-(map! "C-S-n" #'neotree-dir)
+(map! :leader
+      :desc "Open neotree" "n t" #'neotree-dir)
+
+(map! :leader
+      :desc "Open vterm" "v t" #'vterm)
